@@ -16,7 +16,7 @@ project:
   github: https://github.com/CosmoAI-AES/CosmoAI-AES.github.io
   toc:
     - file: index.md
-    - file: HelloWorld.md
+    - file: demo/HelloWorld.md
     - file: docs/user.md
     - file: demo/index.md
       children:
