@@ -48,6 +48,8 @@ jobs:
         with:
           python-version: '3.13'   # or your version
 
+      - name: pip install
+        run: pip install -r requirements.txt
       - name: Build HTML Assets
         run: myst build --html --execute
       - name: Upload artifact
