@@ -46,7 +46,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'   # or your version
+          python-version: '3.13'   # or your version
 
       - name: Build HTML Assets
         run: myst build --html --execute
