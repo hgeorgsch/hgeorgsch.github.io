@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
 CosmoSim is a simulator for gravitational lensing, developed at
