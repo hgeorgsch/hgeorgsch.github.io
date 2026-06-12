@@ -49,7 +49,13 @@ jobs:
           python-version: '3.13'   # or your version
 
       - name: pip install
-        run: pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          pip install jupyter-server nbclient nbformat ipykernel jupyter-client
+          python -m ipykernel install --user --name=python3
+
       - name: Build HTML Assets
         run: myst build --html --execute
       - name: Upload artifact
