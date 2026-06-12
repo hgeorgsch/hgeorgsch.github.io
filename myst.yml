@@ -17,9 +17,10 @@ project:
   toc:
     - file: index.md
     - file: docs/user.md
-    - file: docs/demo/index.md
+    - file: demo/index.md
       children:
       - file: demo/Demo01.ipynb
+      - file: demo/Demo02Resimulation.md
     - file: docs/Publications.md
     - file: about.md
     
