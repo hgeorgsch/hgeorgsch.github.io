@@ -2,8 +2,7 @@
 version: 1
 
 project:
-  id: a77fa618-d81f-4358-9d99-f3bac57b2b7f
-  title: CosmoSim
+  title: Jupyter Book Test
   description: Test of Jupyter Book v2
   keywords: 
       - test 
