@@ -8,7 +8,7 @@ project:
       - test 
   authors: 
     - Hans Georg Schaathun
-  github: https://github.com/hgeorgsch/hgeorgsch.githun.io
+  github: https://github.com/hgeorgsch/hgeorgsch.github.io
   toc:
     - file: index.md
     - file: demo/HelloWorld.md
