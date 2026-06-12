@@ -37,6 +37,8 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: 18.x
+      - uses: typst-community/setup-typst@v4
+
       - name: Install Jupyter Book (via myst)
         run: npm install -g jupyter-book mystmd
 
